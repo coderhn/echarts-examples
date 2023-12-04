@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../lib/echarts.js"></script>
+    <script src="../lib/util.js"></script>
+    <script src="./options.js"></script>
+    <style>
+      .conatiner{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+      .item {
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+        background: #eee;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conatiner">
+      <div id="bar" class="item"></div>
+      <div id="pie" class="item"></div>
+     
+    </div>
+    <script src="./bar.js"></script>
+    <script src="./pie.js"></script>
+  </body>
+</html>
